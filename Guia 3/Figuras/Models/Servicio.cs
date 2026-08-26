@@ -14,7 +14,7 @@ namespace Figuras.Models
         public IFigura VerFigura(int idx)
         { 
         
-            if (idx >= 0 && figuras.Count < 0)
+            if (idx >= 0 && figuras.Count > 0)
             {
                 return (IFigura)figuras[idx];
             }
