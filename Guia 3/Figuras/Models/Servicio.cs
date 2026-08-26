@@ -34,7 +34,7 @@ namespace Figuras.Models
 
         public void EliminarFigura(int idx)
         {
-            if (idx >= 0 && figuras.Count < 0)
+            if (idx >= 0 && figuras.Count > 0)
             {
                 figuras.RemoveAt(idx);
             }

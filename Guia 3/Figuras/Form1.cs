@@ -86,5 +86,17 @@ namespace Figuras
                 tbLargo.Enabled = false;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            servicio.EliminarFigura(lbCreadas.SelectedIndex);
+
+            lbCreadas.Items.Clear();
+
+            for (int i = 0; i < servicio.VerCantidad(); i++)
+            {
+                lbCreadas.Items.Add(servicio.VerFigura(i));
+            }
+        }
     }
 }
