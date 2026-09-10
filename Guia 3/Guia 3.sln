@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figuras", "Figuras\Figuras.csproj", "{DB4CCBA6-9575-404E-9C18-CCC941C59A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bordado", "Bordado\Bordado.csproj", "{31ECB310-B8AC-4307-BBC8-39B6FB2B13DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peaje", "Peaje\Peaje.csproj", "{C30BC02D-AE01-4D7A-9A9D-6F40FF72D2E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DB4CCBA6-9575-404E-9C18-CCC941C59A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB4CCBA6-9575-404E-9C18-CCC941C59A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB4CCBA6-9575-404E-9C18-CCC941C59A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ECB310-B8AC-4307-BBC8-39B6FB2B13DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ECB310-B8AC-4307-BBC8-39B6FB2B13DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ECB310-B8AC-4307-BBC8-39B6FB2B13DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ECB310-B8AC-4307-BBC8-39B6FB2B13DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30BC02D-AE01-4D7A-9A9D-6F40FF72D2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30BC02D-AE01-4D7A-9A9D-6F40FF72D2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30BC02D-AE01-4D7A-9A9D-6F40FF72D2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30BC02D-AE01-4D7A-9A9D-6F40FF72D2E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
